@@ -5,8 +5,6 @@ from clarifai.client.model import Model
 # Your PAT (Personal Access Token) can be found in the Account's Security section
 # Specify the correct user_id/app_id pairings
 # Since you're making inferences outside your app's scope
-#USER_ID = "clarifai"
-#APP_ID = "main"
 
 # You can set the model using model URL or model ID.
 # Change these to whatever model you want to use
@@ -24,6 +22,7 @@ detector_model = Model(
     url=model_url,
     pat="63da8300e0fc46268946b6c7d88cd6fe",
 )
+
 
 
 
